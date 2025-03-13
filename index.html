@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Sphere - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="logo-img" src="Photos/Logo.png" alt="Design Sphere Logo">
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <p class="intro-text">Welcome to</p>
+            <h1 class="name">Design Sphere</h1>
+            <h2 class="role-title">Where imagination meets innovation</h2>
+            <p class="description">We are a dynamic and innovative freelance creative agency dedicated to transforming ideas into stunning digital experiences. Our team of designers, developers, and creative strategists is passionate about delivering cutting-edge solutions..</p>
+            <button class="home-btn"><a href="#contact">Let's Create<i class="fas fa-arrow-right"></i></a></button>
+        </section>
+        
+    <!---
+        <section class="mock-projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="Photos/Admin Dashboard." alt="E-commerce Platform">
+                    <h3>Modern E-commerce Platform</h3>
+                    <p>UI/UX design and development for fashion retail</p>
+                </div>
+                <div class="project-card">
+                    <img src="Photos/Add Record forms." alt="Mobile App">
+                    <h3>Fitness Tracking App</h3>
+                    <p>Cross-platform mobile application development</p>
+                </div>
+            </div>
+        </section>
+    -->
+
+        <section id="contact">
+            <h2>Start Your Project</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
+                <textarea id="message" name="message" required placeholder="Project Details"></textarea>
+                <button type="submit" class="submit-btn">Send Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+        
+    <footer>
+        <p>&copy; 2025 Design Sphere. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/designsphere" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/designsphere_dev" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/designsphere" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
