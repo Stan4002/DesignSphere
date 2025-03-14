@@ -12,7 +12,7 @@ A sleek and modern portfolio website for a mock freelance company, highlighting 
 ## 🚀 Live Demo  
 [🔗 Click here to view the site](https://your-vercel-url.vercel.app) *(update this after deploying to Vercel)*  
 
-## 📂 Project Structure  
+
 
 ## 🛠 Technologies Used  
 - **HTML & CSS** – Structure & styling  
